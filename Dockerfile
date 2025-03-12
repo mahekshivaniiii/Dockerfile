@@ -7,4 +7,4 @@ COPY index.html /usr/local/apache2/htdocs/
 EXPOSE 80
 
 # Start the Apache service
-CMD "sudo systemct enable apache2 -- now"
+CMD "sudo systemctl enable apache2 -- now"
